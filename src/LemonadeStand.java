@@ -11,13 +11,15 @@ public class LemonadeStand {
         int cupsSold;
         int cups;
         int lemons;
-        int saleQuantity ;
+        int saleQuantity;
         double priceOfLemons;
         double priceOfSugar;
         double priceOfCup;
         double salePrice;
         double profit;
         double moneySpent;
+
+
 
 
 
@@ -41,25 +43,29 @@ public class LemonadeStand {
 
         System.out.println("Data Pool 2");
 
-        System.out.println("What is the item you are purchasing?");
+        System.out.println("What is the first item you are purchasing?");
         keyboard.nextLine();
         System.out.println("How many?");
         keyboard.nextInt();
         System.out.println("What is the price per item?");
         keyboard.nextDouble();
 
-        
 
 
+        System.out.println("What is the second item you are purchasing?");
+        keyboard.nextLine();
 
-        System.out.println("How many cups are you buying?");
+        System.out.println("How many?");
         keyboard.nextInt();
-        System.out.println("What is the price per cup?");
+        System.out.println("What is the price per item");
         keyboard.nextDouble();
 
-        System.out.println("How many pounds of sugar are you buying?");
+        System.out.println("What is the third item you are purchasing?");
+        keyboard.nextLine();
+        System.out.println("How many?");
         keyboard.nextInt();
-        System.out.println("What is the price per pound of sugar?");
+        System.out.println("What is the price per item");
+        keyboard.nextDouble();
 
 
 
