@@ -35,7 +35,7 @@ public class LemonadeStand {
         System.out.println("What is the cost per item");
         keyboard.nextDouble();
 
-        System.out.println("My total cost for item1 is" + (costPerItem * amountOfItem));
+
 
     System.out.println("How much of item2 do you need");
         keyboard.nextInt();
