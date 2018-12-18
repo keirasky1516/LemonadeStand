@@ -43,6 +43,8 @@ public class LemonadeStand {
         System.out.println("How many days");
         keyboard.nextInt();
 
+        System.out.println("Day 1");
+
         System.out.println("How many items are needed");
         keyboard.nextInt();
         System.out.println("How much of item1 do you need");
