@@ -7,65 +7,56 @@ public class LemonadeStand {
 
         Scanner keyboard = new Scanner(System.in);
 
-        int sugar;
-        int cupsSold;
-        int cups;
-        int lemons;
-        int saleQuantity;
-        double priceOfLemons;
-        double priceOfSugar;
-        double priceOfCup;
-        double salePrice;
-        double profit;
-        double moneySpent;
-
-
-
-
-
-
-
-
-        System.out.println("Data Pool 1");
-
-        System.out.println("Hello! Welcome to my lemonade stand.");
-
-        System.out.println("I bought 25 dollars in supplies and sold 15 dollars in lemonade.");
-
-        System.out.println("My profit is"+ (15-25));
-
-
-
-
-
-
-
-
-        System.out.println("Data Pool 2");
-
-        System.out.println("What is the first item you are purchasing?");
-        keyboard.nextLine();
-        System.out.println("How many?");
+  String item1;
+  String item2;
+  String item3;
+  int amountOfItemsPurchased;
+  int numberOfItems;
+  Double profit;
+  Double totalSales;
+  Double totalCost;
+  Double costPerItem;
+  int amountOfItem;      
+  
+        
+        System.out.println("Welcome to my manufactoring project");
+        System.out.println("How many days");
         keyboard.nextInt();
-        System.out.println("What is the price per item?");
-        keyboard.nextDouble();
-
-
-
-        System.out.println("What is the second item you are purchasing?");
-        keyboard.nextLine();
-
-        System.out.println("How many?");
+        
+        System.out.println("How many items are needed");
         keyboard.nextInt();
-        System.out.println("What is the price per item");
-        keyboard.nextDouble();
-
-        System.out.println("What is the third item you are purchasing?");
-        keyboard.nextLine();
-        System.out.println("How many?");
+        System.out.println("How much of item1 do you need");
         keyboard.nextInt();
-        System.out.println("What is the price per item");
+        System.out.println("What is the cost per item");
         keyboard.nextDouble();
+        
+        System.out.println("How much of item2 do you need");
+        keyboard.nextInt();
+        System.out.println("What is the cost per item");
+        keyboard.nextDouble();
+        
+        System.out.println("How much of item3 do you need");
+        keyboard.nextInt();
+        System.out.println("What is the cost per item");
+        
+        System.out.println("How much of item4 do you need");
+        keyboard.nextInt();
+        System.out.println("What is the cost per item");
+        keyboard.nextDouble();
+        
+        System.out.println("My total cost for supplies is"+(costPerItem*amountOfItem));
+        
+        
+        System.out.println("How much did you sell each made item for on Day 1");
+        keyboard.nextDouble();
+        System.out.println("How many did you sell");
+        keyboard.nextInt();
+        
+        
+        
+        
+        
+        
 
 
 
