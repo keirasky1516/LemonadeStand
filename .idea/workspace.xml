@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e083e19-6c15-44a4-ab9c-8b8ccf3c00f6" name="Default" comment="" />
+    <list default="true" id="7e083e19-6c15-44a4-ab9c-8b8ccf3c00f6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LemonadeStand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LemonadeStand.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +18,8 @@
       <file leaf-file-name="LemonadeStand.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LemonadeStand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+            <state relative-caret-position="442">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -50,6 +53,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,9 +74,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -164,8 +167,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32903227" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32258064" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32258064" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -174,8 +177,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -193,6 +196,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/LemonadeStand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LemonadeStand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -275,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LemonadeStand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+        <state relative-caret-position="442">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
