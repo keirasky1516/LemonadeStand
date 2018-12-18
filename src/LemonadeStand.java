@@ -11,13 +11,13 @@ public class LemonadeStand {
         String item1;
         String item2;
         String item3;
-        double price;
+        double price = 0;
         int item_1;
         int item_2;
         int item_3;
         int item_4;
         int sales;
-        double _sales;
+        double _sales = 0;
         Double priceItem4;
         Double priceItem3;
         Double priceItem2;
@@ -32,7 +32,7 @@ public class LemonadeStand {
         totalCost = costPerItem;
         amountOfItem = numberOfItems;
         numberOfItems = amountOfItem;
-        amountSold=totalCost;
+        amountSold=-_sales;
 
 
 
@@ -68,9 +68,14 @@ public class LemonadeStand {
         System.out.println("What is the cost per item");
         priceItem4=keyboard.nextDouble();
 
+        System.out.println("How many were sold");
+        _sales=keyboard.nextInt();
+        System.out.println("For what price each");
+        price=keyboard.nextDouble();
+
         double itemTotal=priceItem1*item_1+priceItem2*item_2+item_3*priceItem3+item_4*priceItem4;
 
-        double totalSales=totalCost*amountSold;
+        double totalSales=price*_sales;
         double profit= totalSales-itemTotal;
         System.out.println("Your total profit is $"+profit);
 
